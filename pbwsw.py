@@ -123,7 +123,7 @@ class pbwsw:
     def getPrices(self):
         jsonrpc_req='{"jsonrpc": "2.0", ' \
             '"method": "SportsAPING/v1.0/listMarketBook", ' \
-            '"params": { "marketIds" : ["1.119306906" , "1.107702438"], "priceProjection":{"priceData":["EX_BEST_OFFERS"]}}, ' \
+            '"params": {"marketIds" : ["1.119306828"], "priceProjection":{"priceData":["EX_BEST_OFFERS"]}}, ' \
             '"id": 1}'
 
         response = requests.post(self.JSONRPC_url, data=jsonrpc_req, headers=self.standardHeader)

@@ -10,7 +10,7 @@ pb = pbwsw.pbwsw()
 
 #pb.getMarketCatalogueList(31)
 
-#pb.getMarkets('1')
+pb.getMarkets('1')
 
 pb.getPrices()
 
